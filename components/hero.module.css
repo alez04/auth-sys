@@ -1,0 +1,29 @@
+.wrapper {
+  height: 600px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.svg {
+  width: 50%;
+}
+
+.message {
+  margin-top: 16px;
+  font-size: 18px;
+}
+
+@media screen and (max-width: 1024px) {
+  .svg {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 764px) {
+  .svg {
+    width: 100%;
+  }
+}

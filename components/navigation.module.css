@@ -1,0 +1,41 @@
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  height: 60px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+
+  font-weight: 500;
+  font-size: 18px;
+
+  color: var(--primary);
+}
+
+.links {
+  display: flex;
+  align-items: center;
+}
+
+.linkLogin {
+  margin-right: 16px;
+
+  background: none;
+  outline: none;
+  border: none;
+
+  font-size: 16px;
+}
+
+.linkRegister {
+  display: flex;
+  align-items: center;
+  background-color: var(--primary);
+  color: white;
+  padding: 8px 16px;
+  border-radius: 12px;
+}
